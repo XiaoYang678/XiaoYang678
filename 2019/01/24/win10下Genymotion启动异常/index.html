@@ -1,0 +1,15 @@
+<!DOCTYPE html><html><head><meta name="generator" content="Hexo 3.8.0"><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta name="viewport" content="width=device-width, initial-scale=1"><title>win10下Genymotion启动异常</title><link rel="shortcut icon" href="/images/avatar.png"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/css/font-awesome.min.css"><link rel="stylesheet" href="//cdn.bootcss.com/highlight.js/9.2.0/styles/github.min.css"><script src="//cdn.bootcss.com/highlight.js/9.2.0/highlight.min.js"></script></head><body><nav class="main-nav"><a href="/">Home</a><a href="/archives">Archives</a></nav><div class="profile"><section id="wrapper"><header id="header"><a href="/about"><img class="2x" id="avatar" src="/images/avatar.png"></a><h1>XiaoYang</h1><h2></h2></header></section></div><section class="post" id="wrapper"><article><header><h1>win10下Genymotion启动异常</h1><h2 class="headline">Jan 24, 2019 10:10·133 words
+·1 minutes read<span class="tags"></span></h2></header><div id="toc"><ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#这边是做下问题的记录方便以后重复出现"><span class="toc-text">这边是做下问题的记录方便以后重复出现</span></a></li></ol></div><section id="post-body"><h3 id="这边是做下问题的记录方便以后重复出现"><a href="#这边是做下问题的记录方便以后重复出现" class="headerlink" title="这边是做下问题的记录方便以后重复出现"></a>这边是做下问题的记录方便以后重复出现</h3><p>之前pc 系统换了ssd升级到了固态后，发现Genymotion模拟器不能用了，启动报错是cpu不支持虚拟化。</p>
+<p>然后就fn+f2进了Bios模式看了，虚拟化是开启的。为什么这样尼。</p>
+<p>下面记录下问题，是因为Hyper-V服务默认开启了。</p>
+<p>手动关闭就好了。</p>
+<p>右键管理员权限启动win10下的powershell 工具。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bcdedit /set hypervisorlaunchtype off</span><br></pre></td></tr></table></figure>
+<p>重新启动模拟器就ok了。</p>
+</section><nav id="post-nav"><span class="prev"><a href="/2019/01/24/测试hexo引入图片/"><span class="arrow">←</span>Newer Posts</a></span><span class="next"><a href="/2019/01/23/hello-world/">Older Posts<span class="arrow">→</span></a></span></nav><section><div id="disqus_thread"><noscript>'Please enable JavaScript to view the'<a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></div></section><script>(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//xiaoyang.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());</script></article></section><footer id="footer"><div id="social"><a class="symbol" href="https://github.com/xiaoyang678"><i class="fa fa-github"></i></a></div><p class="small">© Copyright 2019 &nbsp;<by>&nbsp;xiaoyang</by></p><p class="small">Powered by &nbsp;<a href="https://hexo.io/">Hexo &nbsp;</a>Theme By &nbsp;<a href="https://github.com/fuzhouxxdong/hexo-theme-dxx">Dxx</a></p></footer><script>hljs.initHighlightingOnLoad();</script></body></html>
