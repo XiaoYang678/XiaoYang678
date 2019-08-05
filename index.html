@@ -55,6 +55,18 @@
   <ul class="mobile-menu-list"><a href="/">
         <li class="mobile-menu-item">首页
           </li>
+      </a><a href="/archives/">
+        <li class="mobile-menu-item">归档
+          </li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">标签
+          </li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">分类
+          </li>
+      </a><a href="/about/">
+        <li class="mobile-menu-item">关于
+          </li>
       </a></ul>
 </nav>
 <div class="container" id="mobile-panel">
@@ -65,6 +77,26 @@
 <nav class="site-navbar"><ul id="menu" class="menu"><li class="menu-item">
           <a class="menu-item-link" href="/">
             首页
+            </a>
+        </li>
+      <li class="menu-item">
+          <a class="menu-item-link" href="/archives/">
+            归档
+            </a>
+        </li>
+      <li class="menu-item">
+          <a class="menu-item-link" href="/tags/">
+            标签
+            </a>
+        </li>
+      <li class="menu-item">
+          <a class="menu-item-link" href="/categories/">
+            分类
+            </a>
+        </li>
+      <li class="menu-item">
+          <a class="menu-item-link" href="/about/">
+            关于
             </a>
         </li>
       </ul></nav>
@@ -80,20 +112,19 @@
       <div class="post-meta">
         <span class="post-time">
           2019-06-21
-        </span></div>
+        </span><span class="post-category">
+            <a href="/categories/体验/">体验</a>
+            </span>
+        </div>
     </header>
 
     <div class="post-content"><h2 id="什么是gulp"><a href="#什么是gulp" class="headerlink" title="什么是gulp"></a>什么是gulp</h2><p>个人理解gulp和webpack对比下来，gulp是一个轻量级的前端构建工具，下面摘抄别人博客对gulp的介绍</p>
 <blockquote>
-<p>gulpjs是一个前端构建工具，与gruntjs相比，gulpjs无需写一大堆繁杂的配置参数，API也非常简单，学习起来很容易，而且gulpjs使用的是nodejs中stream来读取和操作数据，其速度更快。如果你还没有使用过前端构建工具，或者觉得gruntjs太难用的话，那就尝试一下gulp吧</p>
-</blockquote>
-<p>官网地址 <a href="https://www.gulpjs.com.cn/" target="_blank" rel="noopener">https://www.gulpjs.com.cn/</a> ,现在gulp和webpack的官方文档很大一部分都已经中文化了，总的来说，gulp使用起来比webpack更加的简单，也更加的自由。有兴趣可以看下gulp的插件的源码，代码量都不是很多。</p>
-<p>在使用gulp对老项目的代码进行打包的过程中，发现自身项目中有一个需求【每次发包前需要对项目代码中对一个xml文件进行一个格式内容对检查】,一开始看到处理这个的时候，脑海中第一个想法就是能不能通过gulp插件来实现尼，这样的话就可以很简单的通过多个task串行完成了。那么这种插件肯定是一种定制化了，就找了使用到的gulp-zip插件的源码来看一下了，发现源码很少，代码也很简单了。</p>
-<p>然后就自己手动写一个gulp插件来实现功能了。</p>
+<p>gulpjs是一个前端构建工具，与gruntjs相比，gulpjs无需写一大堆繁杂的配置参数，API也非常简单，学习起来很容易，而且gulpjs使用的是nodejs中stream来读取和操作数据，其速度更快。如果你还没有使用过前端构建工具，或者觉得gruntjs太难用的话，那就尝试一下gulp吧<br>
           <div class="read-more">
             <a href="/2019/06/21/gulp-使用体验/" class="read-more-link">阅读更多</a>
           </div>
-        </div></article>
+        </p></blockquote></div></article>
       <article class="post">
     <header class="post-header">
       <h1 class="post-title"><a class="post-link" href="/2019/04/10/VSCode-Sync-gist记录/">VSCode Sync gist记录</a>
@@ -102,7 +133,10 @@
       <div class="post-meta">
         <span class="post-time">
           2019-04-10
-        </span></div>
+        </span><span class="post-category">
+            <a href="/categories/记录/">记录</a>
+            </span>
+        </div>
     </header>
 
     <div class="post-content"><p>记录下自己vscode 配置同步插件sync用到的gist </p>
@@ -117,7 +151,10 @@
       <div class="post-meta">
         <span class="post-time">
           2019-04-03
-        </span></div>
+        </span><span class="post-category">
+            <a href="/categories/学习/">学习</a>
+            </span>
+        </div>
     </header>
 
     <div class="post-content">
@@ -130,23 +167,19 @@
       <div class="post-meta">
         <span class="post-time">
           2019-03-11
-        </span></div>
+        </span><span class="post-category">
+            <a href="/categories/随笔/">随笔</a>
+            </span>
+        </div>
     </header>
 
     <div class="post-content"><p>最近突然看到几篇关于一些年轻的it大神，英年早逝的文章。</p>
 <p>就整理下关于他们的百度百科链接，以此纪念下他们对it科学做出的贡献。</p>
-<p>【排名先后无特殊意义】</p>
-<h1 id="雷霄骅"><a href="#雷霄骅" class="headerlink" title="雷霄骅"></a>雷霄骅</h1><p><a href="https://baike.baidu.com/link?url=7oVUetWkmAiY8OKlGcMHakwkXUwpr_MabNG8pDHgfyVoOQl_f4lLcOXaeetaXOuzEk1Hh8s3RsWiQdRr5Ve5jJxJ78EEnKJjY0ZvffPEukzl1VUP-HwWGHRxwonv0hvB" target="_blank" rel="noopener">雷霄骅</a>，中国传媒大学通信与信息系统专业博士生，2016年10月就将迎来自己26岁的生日，2016年7月17日凌晨他猝死在学校主楼五层。</p>
-<p>借用新浪网友 @张新成010 的话，“你的博客纯粹是为了分享，写的很仔细，引领了多少人入门，在音视频方面有自己的见解，<strong>在当今音视频编解码封闭技术领域</strong>，你摒弃了别人的躲躲藏藏，无私奉献，你是伟大的，很多音视频方向的朋友称你为雷神，你无愧于这个称号！一个在大学里能静下心来做研究，又能无私分享的，尤其是在中国的大学里，你是难能可贵的佼佼者，至此以后，博客上不会再有更新，音视频的世界少了一颗将才。我已无语，痛心而疾，雷霄骅，雷神，感谢有你，天堂安好！”</p>
-<p>雷霄骅CSDN知名技术博主。荣获2014、2015年度CSDN博客之星，2015年于美国微软总部荣膺微软大中华区MVP称号。他的技术博客突破了450万 访问量，其中的视音频技术专栏，被称为是视音频技术从业人员“优秀的参考手册”。</p>
-<h1 id="张腾飞"><a href="#张腾飞" class="headerlink" title="张腾飞"></a>张腾飞</h1><p>张腾飞， 笔名Vamei，中国科学技术大学学士，南洋理工大学博士。著有《从Python开始学编程》等书，并写作Java、网络协议、数据分析等方面的教程。他的博客访问量超过800万。现从事智能农业领域的创新创业，任睿畜科技首席技术官。</p>
-<p><a href="https://www.douban.com/note/687052558/#comments" target="_blank" rel="noopener">一个被骗去养猪的程序员</a></p>
-<h1 id="苏享茂"><a href="#苏享茂" class="headerlink" title="苏享茂"></a>苏享茂</h1><p><a href="https://baike.baidu.com/link?url=VudRohCt_Su_-qNP_1obXDtfBb4lPdszahWOqWgHfJ2C8IreLC0Pb8-P9q8SbJJNjStiZ6i62s47B_QuHatqCRmE9OLvbM8oAI266fj9VA4xHqx0TrZF3R5tfXEYItGz" target="_blank" rel="noopener">苏享茂</a>，1980年出生于福建，毕业于北京邮电大学，<a href="https://baike.baidu.com/item/wephone" target="_blank" rel="noopener">wephone</a>已故创始人。2012年，他创办了北京曵尾科技有限公司，推出WePhone。</p>
-<p>2017年9月7日凌晨5时左右，苏享茂从天台跳下身亡。他留下的遗书称，遭前妻<a href="https://baike.baidu.com/item/%E7%BF%9F%E6%AC%A3%E6%AC%A3/22116514" target="_blank" rel="noopener">翟欣欣</a>威胁并索要1000万元和房产赔偿。</p>
-<p>事件发生后，引发各界热议。世纪佳缘官方微博声明称，经核实，苏享茂及<a href="https://baike.baidu.com/item/%E5%89%8D%E5%A6%BB/80948" target="_blank" rel="noopener">前妻</a>翟欣欣系世纪佳缘会员，并完成实名认证。世纪佳缘会密切关注事态进展，并配合相关部门进行调查取证工作。</p>
-<h1 id="欧建新"><a href="#欧建新" class="headerlink" title="欧建新"></a>欧建新</h1><p><a href="https://baike.baidu.com/link?url=iWyAhvEuGnBFmEf1aRjnABjY9dyxeTN1eWdjgV3LYByMpiziH4gv8GiuEqcvF63aX5dGTLOf6WMcvwSjJeUJwOl_VKUykegtb9CqjcoYylD-DJfwNt2xivKiiQwEU6JR" target="_blank" rel="noopener">欧建新</a>，男，出生于湖南省邵阳市武冈县，毕业于北京航空航天大学，硕士研究生，原中兴通讯子公司中兴网信员工。2017年12月10日上午，在中兴通讯大楼坠亡</p>
-
-        </div></article>
+<p>【排名先后无特殊意义】<br>
+          <div class="read-more">
+            <a href="/2019/03/11/纪念哪些it大神们/" class="read-more-link">阅读更多</a>
+          </div>
+        </p></div></article>
       <article class="post">
     <header class="post-header">
       <h1 class="post-title"><a class="post-link" href="/2019/03/06/windows下使用的软件/">windows下使用的软件</a>
@@ -155,31 +188,19 @@
       <div class="post-meta">
         <span class="post-time">
           2019-03-06
-        </span></div>
+        </span><span class="post-category">
+            <a href="/categories/记录/">记录</a>
+            </span>
+        </div>
     </header>
 
     <div class="post-content"><p>备份记录下自己window电脑下使用的软件，防丢失</p>
 <h2 id="开发IDE"><a href="#开发IDE" class="headerlink" title="开发IDE"></a>开发IDE</h2><p>Android Studio，JetBrains PyCharm，JetBrains WebStorm，Notepad++，Sublime Text 3，Visual Studio Code</p>
-<h2 id="MD-编辑器"><a href="#MD-编辑器" class="headerlink" title="MD 编辑器"></a>MD 编辑器</h2><p>Typora</p>
-<h2 id="前端工具"><a href="#前端工具" class="headerlink" title="前端工具"></a>前端工具</h2><p>Mark Man，Photoshop CC 2019，Koala</p>
-<h2 id="网络工具"><a href="#网络工具" class="headerlink" title="网络工具"></a>网络工具</h2><p>Charles，Wireshark</p>
-<h2 id="自动化测试"><a href="#自动化测试" class="headerlink" title="自动化测试"></a>自动化测试</h2><p>Appium</p>
-<h2 id="文件比对"><a href="#文件比对" class="headerlink" title="文件比对"></a>文件比对</h2><p>BCompare</p>
-<h2 id="系统工具相关"><a href="#系统工具相关" class="headerlink" title="系统工具相关"></a>系统工具相关</h2><p>CCleaner ，GlassWire，DiskInfo64，搜索 Everything，AS SSD，</p>
-<h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><p>EagleGet</p>
-<h2 id="浏览器"><a href="#浏览器" class="headerlink" title="浏览器"></a>浏览器</h2><p>Firefox ，Google Chrome，Start Tor Browser</p>
-<h2 id="邮箱"><a href="#邮箱" class="headerlink" title="邮箱"></a>邮箱</h2><p>Foxmail</p>
-<h2 id="虚拟机模拟器"><a href="#虚拟机模拟器" class="headerlink" title="虚拟机模拟器"></a>虚拟机模拟器</h2><p>Genymotion，VirtualBox</p>
-<h2 id="代码管理"><a href="#代码管理" class="headerlink" title="代码管理"></a>代码管理</h2><p>svn，tor svn，git ，tor git，GitHub Desktop</p>
-<h2 id="数据库，服务器"><a href="#数据库，服务器" class="headerlink" title="数据库，服务器"></a>数据库，服务器</h2><p>HeidiSQL，Robo 3T，Xftp 6，Xshell 6</p>
-<h2 id="IM"><a href="#IM" class="headerlink" title="IM"></a>IM</h2><p>腾讯QQ，微信，Telegram</p>
-<h2 id="远程"><a href="#远程" class="headerlink" title="远程"></a>远程</h2><p>VNC Viewer，TeamViewer</p>
-<h2 id="接口"><a href="#接口" class="headerlink" title="接口"></a>接口</h2><p>SoapUI，Postman，TCP&amp;UDP测试工具</p>
-<h2 id="笔记"><a href="#笔记" class="headerlink" title="笔记"></a>笔记</h2><p>印象笔记</p>
-<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><p>Docker for Windows，Shadowsocks，QuickLook</p>
-<h2 id="脑图"><a href="#脑图" class="headerlink" title="脑图"></a>脑图</h2><p>XMind ZEN，亿图图示</p>
-
-        </div></article>
+<h2 id="MD-编辑器"><a href="#MD-编辑器" class="headerlink" title="MD 编辑器"></a>MD 编辑器</h2><p>Typora<br>
+          <div class="read-more">
+            <a href="/2019/03/06/windows下使用的软件/" class="read-more-link">阅读更多</a>
+          </div>
+        </p></div></article>
       <article class="post">
     <header class="post-header">
       <h1 class="post-title"><a class="post-link" href="/2019/02/01/2018总结/">2018总结</a>
@@ -188,18 +209,18 @@
       <div class="post-meta">
         <span class="post-time">
           2019-02-01
-        </span></div>
+        </span><span class="post-category">
+            <a href="/categories/总结/">总结</a>
+            </span>
+        </div>
     </header>
 
     <div class="post-content"><p>趁着年前放假还有两天，抽着空在划水的过程中1把8年的总结写下。</p>
-<p>18年对我来说变化还是比较大的，有好多个第一次，第一次跨省出差，第一次跟进项目上线，第一次跳槽，第一次参与招标等等。</p>
-<p>先说下之前在上家公司zywx的时候，在最后三四月份的时候已经准备了离职的，但是因为当时手上的项目刚刚走上正轨，还没有交付上线，因为一些其他的原因什么的，最终项目实际面向客户负责的就是我一个人了。本来准备的离职的，就把这个当作一个提升自己经验的机会了。四月份的时候，出差在四川带了一共将近一个月的时候吧，中间其实也收获了很多，而且在四川的时候中间还发生了一些意外的小插曲大概这辈子也忘不了了。</p>
-<p>后来项目上线后大概就是有两个多月的时间划水离职，准备跳槽到甲方的时间了，18年也没学什么新技术，还是技术水平还是停留在18年的水平，本来准备学学es6，vue，RN等框架的东西，看看原理，好好学一门后端语言的，结果啥都没做的成，七月份的时候接了一个私活，折折腾腾现在才到手了1w，中间也是拖拖拉拉，发现自己自从八月份入职新公司后，拖延症好严重哦，本来也就一个月左右的工作流，拖了好久就是没有完成，正好客户那边后端也有问题，需要调试什么的，也接受了这样的拖延，实际也是纵容了我的拖延症。</p>
-<p>最近沟通下来，年后要改成小程序版本的，工时什么的都评估了，希望这次不要拖延吧，不然也不好交待，哈哈。</p>
-<p>谈一谈在新公司的感受吧，总之就是一个字不爽，说的年薪 绩效各种扣，做的再好，也不过拿满合同上的工资，不会多一分钱。在现在的项目组也因为一些事情，要调到新的项目组，要是19年在新的项目组待的不怎么样，就考虑考虑挪一下窝了，虽然现在的窝很舒服，但是不爽。也就这样了，本来准备年底存点钱的，也没存的下，各种亏损，哎。。。。</p>
-<p>19年加油吧，真的准备跳槽了。</p>
-
-        </div></article>
+<p>18年对我来说变化还是比较大的，有好多个第一次，第一次跨省出差，第一次跟进项目上线，第一次跳槽，第一次参与招标等等。<br>
+          <div class="read-more">
+            <a href="/2019/02/01/2018总结/" class="read-more-link">阅读更多</a>
+          </div>
+        </p></div></article>
       <article class="post">
     <header class="post-header">
       <h1 class="post-title"><a class="post-link" href="/2019/01/28/Electron初体验/">Electron初体验</a>
@@ -208,17 +229,18 @@
       <div class="post-meta">
         <span class="post-time">
           2019-01-28
-        </span></div>
+        </span><span class="post-category">
+            <a href="/categories/体验/">体验</a>
+            </span>
+        </div>
     </header>
 
     <div class="post-content"><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>Electron出来已经很久了，vscode也是基于Electron实现了，之前老早就想说写个Electrondemo玩下。终于年前空闲有空看看了。</p>
-<p><img src="D:\03 coding\gayhub\hexo_blog\source\_posts\Electron初体验\img1.png" alt=""></p>
-<h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>安装很简单就是跟着官方文档 npm i electron 就好了，不过过程中有个报错</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Downloading tmp-3324-0-electron-v4.0.2-win32-x64.zip</span><br><span class="line">Error: read ECONNRESET</span><br></pre></td></tr></table></figure>
-<p>大概就是下载这个文件有异常，设置了代理就可以了<code> npm config set ELECTRON_MIRROR “<a href="https://npm.taobao.org/mirrors/electron/&quot;" target="_blank" rel="noopener">https://npm.taobao.org/mirrors/electron/&quot;</a></code>  具体的可以参考<a href="https://github.com/electron-userland/electron-packager/issues/699" target="_blank" rel="noopener">这个issues</a> </p>
-<h3 id="文档"><a href="#文档" class="headerlink" title="文档"></a>文档</h3><p><a href="https://electronjs.org/docs" target="_blank" rel="noopener">官方文档</a> </p>
-
-        </div></article>
+<p><img src="D:\03 coding\gayhub\hexo_blog\source\_posts\Electron初体验\img1.png" alt=""><br>
+          <div class="read-more">
+            <a href="/2019/01/28/Electron初体验/" class="read-more-link">阅读更多</a>
+          </div>
+        </p></div></article>
       <article class="post">
     <header class="post-header">
       <h1 class="post-title"><a class="post-link" href="/2019/01/24/测试hexo引入图片/">测试hexo引入图片</a>
@@ -227,12 +249,17 @@
       <div class="post-meta">
         <span class="post-time">
           2019-01-24
-        </span></div>
+        </span><span class="post-category">
+            <a href="/categories/记录/">记录</a>
+            </span>
+        </div>
     </header>
 
     <div class="post-content"><h3 id="测试hexo写文章引入图片"><a href="#测试hexo写文章引入图片" class="headerlink" title="测试hexo写文章引入图片"></a>测试hexo写文章引入图片</h3><p><img src="./58e5aa29cda0c.jpg" alt=""></p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![](./58e5aa29cda0c.jpg)</span><br></pre></td></tr></table></figure>
-
+          <div class="read-more">
+            <a href="/2019/01/24/测试hexo引入图片/" class="read-more-link">阅读更多</a>
+          </div>
         </div></article>
       <article class="post">
     <header class="post-header">
@@ -242,18 +269,17 @@
       <div class="post-meta">
         <span class="post-time">
           2019-01-24
-        </span></div>
+        </span><span class="post-category">
+            <a href="/categories/问题/">问题</a>
+            </span>
+        </div>
     </header>
 
-    <div class="post-content"><h3 id="这边是做下问题的记录方便以后重复出现"><a href="#这边是做下问题的记录方便以后重复出现" class="headerlink" title="这边是做下问题的记录方便以后重复出现"></a>这边是做下问题的记录方便以后重复出现</h3><p>之前pc 系统换了ssd升级到了固态后，发现Genymotion模拟器不能用了，启动报错是cpu不支持虚拟化。</p>
-<p>然后就fn+f2进了Bios模式看了，虚拟化是开启的。为什么这样尼。</p>
-<p>下面记录下问题，是因为Hyper-V服务默认开启了。</p>
-<p>手动关闭就好了。</p>
-<p>右键管理员权限启动win10下的powershell 工具。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bcdedit /set hypervisorlaunchtype off</span><br></pre></td></tr></table></figure>
-<p>重新启动模拟器就ok了。</p>
-
-        </div></article>
+    <div class="post-content"><h3 id="这边是做下问题的记录方便以后重复出现"><a href="#这边是做下问题的记录方便以后重复出现" class="headerlink" title="这边是做下问题的记录方便以后重复出现"></a>这边是做下问题的记录方便以后重复出现</h3><p>之前pc 系统换了ssd升级到了固态后，发现Genymotion模拟器不能用了，启动报错是cpu不支持虚拟化。<br>
+          <div class="read-more">
+            <a href="/2019/01/24/win10下Genymotion启动异常/" class="read-more-link">阅读更多</a>
+          </div>
+        </p></div></article>
       <article class="post">
     <header class="post-header">
       <h1 class="post-title"><a class="post-link" href="/2019/01/23/hello-world/">Hexo基本命令记录</a>
@@ -262,20 +288,21 @@
       <div class="post-meta">
         <span class="post-time">
           2019-01-23
-        </span></div>
+        </span><span class="post-category">
+            <a href="/categories/记录/">记录</a>
+            </span>
+        </div>
     </header>
 
     <div class="post-content"><h2 id="How-to-start"><a href="#How-to-start" class="headerlink" title="How to start"></a>How to start</h2><h3 id="写新文章"><a href="#写新文章" class="headerlink" title="写新文章"></a>写新文章</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<h3 id="启动服务"><a href="#启动服务" class="headerlink" title="启动服务"></a>启动服务</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server || hexo s</span><br></pre></td></tr></table></figure>
-<h3 id="编译文章"><a href="#编译文章" class="headerlink" title="编译文章"></a>编译文章</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate || hexo g</span><br></pre></td></tr></table></figure>
-<h3 id="构建文章"><a href="#构建文章" class="headerlink" title="构建文章"></a>构建文章</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy || hexo d</span><br></pre></td></tr></table></figure>
-
+          <div class="read-more">
+            <a href="/2019/01/23/hello-world/" class="read-more-link">阅读更多</a>
+          </div>
         </div></article>
       <nav class="pagination"></nav></section></div></div>
       </main>
 
-      <footer id="footer" class="footer"><div class="social-links"><a href="mailto:your@email.com" class="iconfont icon-email" title="email"></a>
-        <a href="https://github.com/ahonn" class="iconfont icon-github" title="github"></a>
+      <footer id="footer" class="footer"><div class="social-links"><a href="https://github.com/" class="iconfont icon-github" title="github"></a>
         <a href="/atom.xml" class="iconfont icon-rss" title="rss"></a>
     </div><div class="copyright">
   <span class="power-by">
@@ -287,7 +314,7 @@
     <a class="theme-link" href="https://github.com/ahonn/hexo-theme-even">Even</a>
   </span>
 
-  <span class="copyright-year">&copy;2015 - 2019<span class="heart">
+  <span class="copyright-year">&copy;2018 - 2019<span class="heart">
       <i class="iconfont icon-heart"></i>
     </span>
     <span class="author">xiao yang</span>
