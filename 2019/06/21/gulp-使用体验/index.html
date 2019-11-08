@@ -123,9 +123,9 @@
     <div class="post-toc-content">
       <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#什么是gulp"><span class="toc-text">什么是gulp</span></a></li></ol>
     </div>
-  </div><div class="post-content"><h2 id="什么是gulp"><a href="#什么是gulp" class="headerlink" title="什么是gulp"></a>什么是gulp</h2><p>个人理解gulp和webpack对比下来，gulp是一个轻量级的前端构建工具，下面摘抄别人博客对gulp的介绍</p>
+  </div><div class="post-content"><h2 id="什么是gulp"><a href="#什么是gulp" class="headerlink" title="什么是gulp"></a>什么是gulp</h2><p>个人理解gulp和webpack对比下来，gulp是一个轻量级的前端构建工具，下面摘抄别人博客对gulp的介绍<br><a id="more"></a></p>
 <blockquote>
-<p>gulpjs是一个前端构建工具，与gruntjs相比，gulpjs无需写一大堆繁杂的配置参数，API也非常简单，学习起来很容易，而且gulpjs使用的是nodejs中stream来读取和操作数据，其速度更快。如果你还没有使用过前端构建工具，或者觉得gruntjs太难用的话，那就尝试一下gulp吧<br><a id="more"></a><br>官网地址 <a href="https://www.gulpjs.com.cn/" target="_blank" rel="noopener">https://www.gulpjs.com.cn/</a> ,现在gulp和webpack的官方文档很大一部分都已经中文化了，总的来说，gulp使用起来比webpack更加的简单，也更加的自由。有兴趣可以看下gulp的插件的源码，代码量都不是很多。</p>
+<p>gulpjs是一个前端构建工具，与gruntjs相比，gulpjs无需写一大堆繁杂的配置参数，API也非常简单，学习起来很容易，而且gulpjs使用的是nodejs中stream来读取和操作数据，其速度更快。如果你还没有使用过前端构建工具，或者觉得gruntjs太难用的话，那就尝试一下gulp吧<br>官网地址 <a href="https://www.gulpjs.com.cn/" target="_blank" rel="noopener">https://www.gulpjs.com.cn/</a> ,现在gulp和webpack的官方文档很大一部分都已经中文化了，总的来说，gulp使用起来比webpack更加的简单，也更加的自由。有兴趣可以看下gulp的插件的源码，代码量都不是很多。</p>
 </blockquote>
 <p>在使用gulp对老项目的代码进行打包的过程中，发现自身项目中有一个需求【每次发包前需要对项目代码中对一个xml文件进行一个格式内容对检查】,一开始看到处理这个的时候，脑海中第一个想法就是能不能通过gulp插件来实现尼，这样的话就可以很简单的通过多个task串行完成了。那么这种插件肯定是一种定制化了，就找了使用到的gulp-zip插件的源码来看一下了，发现源码很少，代码也很简单了。</p>
 <p>然后就自己手动写一个gulp插件来实现功能了。</p>
@@ -150,7 +150,12 @@
             <a href="/tags/gulp/">gulp</a>
             </div>
         
-        <nav class="post-nav"><a class="next" href="/2019/04/10/VSCode-Sync-gist记录/">
+        <nav class="post-nav"><a class="prev" href="/2019/08/05/AST抽象语法书初探/">
+        <i class="iconfont icon-left"></i>
+        <span class="prev-text nav-default">AST抽象语法书初探</span>
+        <span class="prev-text nav-mobile">上一篇</span>
+      </a>
+    <a class="next" href="/2019/04/10/VSCode-Sync-gist记录/">
         <span class="next-text nav-default">VSCode Sync gist记录</span>
         <span class="prev-text nav-mobile">下一篇</span>
         <i class="iconfont icon-right"></i>
